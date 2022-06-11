@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(101, 237, 247);
+}
+input {
+  background-color: cornsilk;
+  letter-spacing: 2px;
+}
+button {
+  background-color:gold;
+}
+div {
+  text-align: center;
+}
+li {
+  text-align: center;
+  color: blue;
+}
+h2 {
+  text-align: center;
+  color: red;
+}
