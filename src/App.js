@@ -1,14 +1,16 @@
 import './App.css';
-import AddList from './component/addElementList';
+import AddList from './component/AddList';
 import Title from './component/title';
-import SearchW from './component/searchWord';
+import SearchWord from './component/SerchWord';
+import React, {useState} from 'react';
 
 function App () {
+  const [list, setList] = useState([]);
 return (
 <p>
   <Title />
-  <AddList />
-  <SearchW />
+  <AddList list = {list} setList={setList}/>
+  <SearchWord  list = {list}/>
   </p>
   );
 }
